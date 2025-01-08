@@ -1,0 +1,123 @@
+.container{
+    width: 920px;
+    margin: 50px auto;
+}
+.allcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.flex-column {
+    flex-direction: column;
+}
+input, textarea {
+    font-size: var(--font-size-main);
+}
+.link{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-size: var(--font-size-main);
+}
+h1.title{
+    text-align: center;
+}
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    min-height: 50px;
+    line-height: 20px;
+    padding: 0 24px;
+    border: 1px solid black;
+    background-color: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.btn:active{
+    box-shadow: none;
+}
+.icon-btn {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    cursor: pointer;
+    border: none;
+}
+.icon-btn.del {
+    background-color: red;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px auto;
+}
+textarea {
+    resize: none;
+    overflow-y: auto;
+    padding: 15px;
+}
+td img {
+    width: 140px;
+    height: 85px;
+    object-fit: contain;
+}
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+.flex-box .item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.file-img {
+    width: 120px;
+    height: 50px;
+    object-fit: cover;
+}
+.page-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    gap: 40px;
+}
+
+.badge {
+    position: absolute;
+    padding: auto;
+    top: 3px;
+    left: 3px;
+    font-size: 14px;
+    color: white;
+    padding: 2px 4px;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.item-img {
+    position: relative;
+}
