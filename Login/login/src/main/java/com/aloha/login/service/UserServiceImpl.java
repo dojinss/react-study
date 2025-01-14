@@ -57,6 +57,10 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean update(Users user) throws Exception {
+        // 비밀번호 암호화
+        String password = user.getPassword();
+        String encodedPassword = passwordEncoder.encode(password);
+        user.setPassword(encodedPassword);
         int reuslt = userMapper.update(user);
         return reuslt > 0;
     }

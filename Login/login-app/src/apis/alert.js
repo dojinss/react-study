@@ -14,7 +14,7 @@ export const alert = (title,text,icon,callback) => {
 }
 
 // 확인창
-export const confrim = (title,text,icon,callback) => {
+export const confirm = (title,text,icon,callback) => {
   MySwal.fire({
     title : title,
     text : text,
